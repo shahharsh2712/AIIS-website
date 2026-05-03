@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-serif), ui-serif, Georgia, serif;
+
+  --color-aiis-ink: #0c1222;
+  --color-aiis-muted: #5c6578;
+  --color-aiis-surface: #f4f6fa;
+  --color-aiis-card: #ffffff;
+  --color-aiis-border: #e2e6ef;
+  --color-aiis-accent: #0d9488;
+  --color-aiis-accent-hover: #0f766e;
+  --color-aiis-warm: #c2410c;
+  --color-aiis-warm-soft: #fff7ed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-[var(--color-aiis-ink)] antialiased;
+}
