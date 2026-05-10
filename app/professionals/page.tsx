@@ -22,7 +22,7 @@ export default function ProfessionalsPage() {
         <p className="mt-6 max-w-2xl text-lg text-[var(--color-aiis-muted)]">
           Whether you are advancing your career or bringing AI literacy to an entire
           institution, {site.shortName} combines practical workflows with the same
-          ethical backbone we teach in K–12.
+          ethical backbone we teach in Grades 6–12.
         </p>
       </Section>
 

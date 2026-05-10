@@ -20,10 +20,10 @@ export function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-[var(--color-aiis-muted)]">
             <li>
               <Link
-                href="/programs/k12"
+                href="/programs/grades-6-12"
                 className="hover:text-[var(--color-aiis-ink)]"
               >
-                K–12 AI programs
+                Grades 6–12 AI programs
               </Link>
             </li>
             <li>

@@ -6,7 +6,7 @@ import { useState } from "react";
 import { site, whatsappHref } from "@/lib/site";
 
 const nav = [
-  { href: "/programs/k12", label: "K–12 AI" },
+  { href: "/programs/grades-6-12", label: "Grades 6–12 AI" },
   { href: "/professionals", label: "Professionals & schools" },
   { href: "/about", label: "About" },
   { href: "/admissions", label: "Admissions" },

@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `Learn about ${site.name} (${site.shortName}) — AI education in Surat for K–12, professionals, and schools.`,
+  description: `Learn about ${site.name} (${site.shortName}) — AI education in Surat for Grades 6–12, professionals, and schools.`,
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <p className="mt-6 max-w-2xl text-lg text-[var(--color-aiis-muted)]">
           {site.name} exists so Surat has a dedicated place to learn AI the right
           way: with clarity, ethics, and projects you can point to — whether you are
-          in primary school, leading a team, or teaching the next generation.
+          in grades 6–12, leading a team, or teaching the next generation.
         </p>
       </Section>
 

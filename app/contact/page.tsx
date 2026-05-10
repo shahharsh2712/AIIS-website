@@ -84,7 +84,7 @@ export default function ContactPage() {
               <h2 className="font-display text-xl font-semibold">Plan your visit</h2>
               <p className="mt-3 text-white/75">
                 Book a short tour or counselling slot so we can match the learner to
-                the right band — K–12, professional, or school partnership.
+                the right band — Grades 6–12, professional, or school partnership.
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-3">

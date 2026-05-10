@@ -7,7 +7,7 @@ import { Section, SectionTitle } from "@/components/Section";
 import { site, whatsappHref } from "@/lib/site";
 
 const interests = [
-  { value: "k12", label: "K–12 (student)" },
+  { value: "k12", label: "Grades 6–12 (student)" },
   { value: "professional", label: "Working professional" },
   { value: "school", label: "School / educator" },
 ];
@@ -195,7 +195,7 @@ export default function AdmissionsPage() {
                     htmlFor="grade"
                     className="block text-sm font-medium text-[var(--color-aiis-ink)]"
                   >
-                    Student grade (if K–12)
+                    Student grade (if Grades 6–12)
                   </label>
                   <input
                     id="grade"

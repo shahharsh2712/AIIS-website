@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { site } from "@/lib/site";
 
 const interestLabels: Record<string, string> = {
-  k12: "K–12 (student)",
+  k12: "Grades 6–12 (student)",
   professional: "Working professional",
   school: "School / educator",
 };

@@ -7,7 +7,7 @@ export const site = {
   shortName: "AIIS",
   tagline: "Age-appropriate AI literacy for Surat—and beyond.",
   description:
-    "AIIS offers AI programs for Grades 1–12, professional upskilling for working adults, and training for educators and schools in Surat, Gujarat.",
+    "AIIS offers AI programs for Grades 6–12, professional upskilling for working adults, and training for educators and schools in Surat, Gujarat.",
   /** Set NEXT_PUBLIC_SITE_URL in production for correct links and metadata. */
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   email: "shahharsh2712@gmail.com",

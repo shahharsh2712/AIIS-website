@@ -5,14 +5,6 @@ import { site, whatsappHref } from "@/lib/site";
 
 const gradeBands = [
   {
-    title: "Grades 1–3",
-    text: "Playful AI awareness: patterns, storytelling with tools, safe digital habits.",
-  },
-  {
-    title: "Grades 4–5",
-    text: "Logical thinking, simple automations, and creative projects with guidance.",
-  },
-  {
     title: "Grades 6–8",
     text: "Data intuition, how models learn at a high level, ethics in everyday tech.",
   },
@@ -39,12 +31,12 @@ export default function HomePage() {
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-[var(--color-aiis-ink)] sm:text-5xl">
             The city&apos;s home for{" "}
             <span className="text-[var(--color-aiis-accent)]">trustworthy AI education</span>{" "}
-            — from primary school to the workplace.
+            — from middle school to the workplace.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-[var(--color-aiis-muted)]">
             {site.shortName} ({site.name}) offers age-appropriate AI literacy for{" "}
             <strong className="font-medium text-[var(--color-aiis-ink)]">
-              Grades 1–12
+              Grades 6–12
             </strong>
             , plus programs for{" "}
             <strong className="font-medium text-[var(--color-aiis-ink)]">
@@ -74,10 +66,10 @@ export default function HomePage() {
               Chat on WhatsApp
             </a>
             <Link
-              href="/programs/k12"
+              href="/programs/grades-6-12"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold text-[var(--color-aiis-accent)] hover:underline"
             >
-              View K–12 programs
+              View Grades 6–12 programs
             </Link>
           </div>
         </div>
@@ -91,10 +83,10 @@ export default function HomePage() {
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           <PathCard
-            href="/programs/k12"
-            title="K–12: AI for Grades 1–12"
+            href="/programs/grades-6-12"
+            title="Grades 6–12: AI programs"
             description="Hands-on, age-banded tracks for students — from first exposure to portfolio-ready projects. Parents stay informed every step of the way."
-            cta="Explore K–12 tracks"
+            cta="Explore Grades 6–12 tracks"
           />
           <PathCard
             href="/professionals"
@@ -141,7 +133,7 @@ export default function HomePage() {
 
       <Section>
         <SectionTitle
-          eyebrow="K–12 at a glance"
+          eyebrow="Grades 6–12 at a glance"
           title="Programs across every school stage"
           description="Each band blends creativity, technical intuition, and responsible use — with clear outcomes you can discuss with our counsellors."
         />
@@ -160,10 +152,10 @@ export default function HomePage() {
         </div>
         <div className="mt-10">
           <Link
-            href="/programs/k12"
+            href="/programs/grades-6-12"
             className="text-sm font-semibold text-[var(--color-aiis-accent)] hover:underline"
           >
-            Full K–12 curriculum outline →
+            Full Grades 6–12 curriculum outline →
           </Link>
         </div>
       </Section>
